@@ -1,0 +1,107 @@
+/* ——— Tipografía coreana aesthetic ——— */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f5f2;     /* beige suave */
+  color: #4b4b4b;                /* gris topo */
+  margin: 0;
+}
+
+/* ——— Titulos finos y maduros ——— */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: #3d3d3d;
+  letter-spacing: -0.5px;
+}
+
+/* ——— Navbar minimalista ——— */
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #3d3d3d !important;
+  letter-spacing: -0.5px;
+}
+
+/* ——— Cards estilo clean girl / K-fashion ——— */
+.card {
+  border: none;
+  border-radius: 18px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+}
+
+/* ——— Botón rosa elegante MUY sutil ——— */
+.btn-danger {
+  background-color: #e6adbb !important;    /* rosa apagado, maduro */
+  border-color: #fef0f0 !important;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 18px;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.btn-danger:hover {
+  opacity: 0.85;
+}
+
+/* ——— Banner neutral chic ——— */
+#banner {
+  background-color: #c8b8a8 !important;   /* café rosado elegante */
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+/* ——— Alert cute pero madura ——— */
+.alert-info {
+  background-color: #f0e7e9;    /* rosa grisáceo */
+  border: none;
+  color: #6b5c62;
+  border-radius: 12px;
+}
+
+/* ——— Testimonio VIP minimal ——— */
+.testimonio-vip {
+  background-color: #f2edea;     /* beige rosado */
+  border-radius: 16px;
+  padding: 20px;
+}
+
+/* ——— Ícono WhatsApp elegante ——— */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;   /* distancia del borde inferior */
+  right: 20px;    /* distancia del borde derecho */
+  z-index: 9999;  /* queda encima de todo */
+}
+
+.whatsapp-icon img {
+  width: 80px;     /* mucho más pequeño */
+  height: 80px;
+  filter: grayscale(25%);
+  opacity: 0.85;
+  transition: all 0.2s ease;
+}
+
+.whatsapp-icon img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+
+
+
+
